@@ -1,0 +1,85 @@
+/*全体のスタイル設定*/
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+/*ヘッダー*/
+header {
+  background-image:url(img/115374.jpg);
+  background-size: cover;
+  background-position: center;
+  color: rgb(136, 136, 136);
+  text-align: center;
+  padding: 3rem;
+  height: 100%;
+  width: 100%;
+  background-repeat:no-repeat;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+/*メイン*/
+main {
+  padding: 2rem;
+  background-color: rgb(0, 0, 0);
+}
+
+/*紹介セクション*/
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.intro img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  flex: 1 1 300px;
+}
+
+.description {
+  flex: 1 1 300px;
+}
+
+/* スペック表 */
+.specs ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.specs li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ffffff;
+}
+
+/* 歴史セクション */
+.history {
+  margin-top: 3rem;
+}
+
+/*ゲームセクション*/
+.game {
+  margin-top: 3rem;
+}
+
+/*用語セクション*/
+.term {
+  margin-top: 3rem;
+}
+
+/* フッター */
+footer {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
